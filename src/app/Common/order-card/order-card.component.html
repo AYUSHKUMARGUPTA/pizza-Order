@@ -1,0 +1,44 @@
+<div class="container">
+    <div class="header">
+        <div style="background-color: gold;">Order: {{Details.id}}</div>
+        <div class="paddingsides">Cust. Name: {{Details.name}}</div>
+        <hr/>
+    </div>
+    
+    <div class="cardBody paddingsides" (click)="openModal(Details.id)">
+        <div>Items:</div>
+        <div class="priceCard">
+            <app-price-card [items]="Details.items"></app-price-card>
+        </div>
+        <div class="orderStatus">
+            <span>Status: {{Details.orderStatus}}</span>
+        </div>
+    </div>
+    
+    <div class="footer" (click)="toNextStage(Details.id,Details.orderStatus)">
+        <hr/>
+        <div class="nextStage">
+            Move to next Stage 
+        </div>
+    </div>
+</div>
+<div [style.display]="showModal ? 'block' : 'none'" class="modal" id="imagemodal" tabindex="-1" role="dialog"
+  aria-labelledby="myModalLabel" aria-hidden="true" style="background-color: rgba(0,0,0,0.5);">
+  <div class="modal-dialog" style="max-width: 750px !important;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Order Details: {{Details.id}}</h4>
+        <button type="button" class="close" data-dismiss="modal" (click)="hide()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <ng-container>
+            <app-price-card [items]="Details.items"></app-price-card>
+            <div class="userDetailsContainer">
+                <div>Customer Name:- {{Details.name}}</div>
+                <div>Delivery Address:- {{Details.address}}</div>
+            </div>
+        </ng-container>
+      </div>
+    </div>
+  </div>
+</div>

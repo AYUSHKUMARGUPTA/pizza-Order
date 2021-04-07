@@ -1,0 +1,14 @@
+.rowItem{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+}
+.borderClass{
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+.totalAmount{
+    display: flex;
+    flex-flow: row-reverse;
+}

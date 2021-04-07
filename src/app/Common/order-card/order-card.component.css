@@ -1,0 +1,58 @@
+.container{
+    border:1px solid #d6cecef2;
+    border-radius:5px;
+    width:fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding: 0;
+}
+.paddingsides{
+    padding:0 5px;
+}
+.nextStage{
+    text-align:center;
+}
+
+.footer {
+    border-radius: 0 0 5px 5px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  
+  .footer .nextStage {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .footer .nextStage:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .footer:hover .nextStage {
+    padding-right: 25px;
+  }
+  
+  .footer:hover .nextStage:after {
+    opacity: 1;
+    right: 0;
+  }
+  .userDetailsContainer{
+    border: 1px solid gainsboro;
+    border-radius: 7px;
+    padding: 5px;
+  }
+  .cardBody{
+      cursor:pointer;
+  }

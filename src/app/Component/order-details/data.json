@@ -1,0 +1,125 @@
+[
+    {
+        "id": "#00001",
+        "name": "Tom",
+        "address":"address 1",
+        "items": [
+            {
+                "ingredientName": "Pasta Pizza",
+                "itemCount": 1,
+                "amount": 400
+            },
+            {
+                "ingredientName": "Pasta Pizza Chicken",
+                "itemCount": 3,
+                "amount": 1200
+            }
+        ],
+        "orderStatus":"Order Recieved"
+    },
+    {
+        "id": "#00002",
+        "name": "Jack",
+        "address":"address 2",
+        "items": [
+            {
+                "ingredientName": "Treat Pizza",
+                "itemCount": 1,
+                "amount": 400
+            },
+            {
+                "ingredientName": "Treat Chicken",
+                "itemCount": 3,
+                "amount": 1200
+            },
+            {
+                "ingredientName": "Treat Veg",
+                "itemCount": 2,
+                "amount": 500
+            }
+        ],
+        "orderStatus":"Preparing"
+    },
+    {
+        "id": "#00003",
+        "name": "Johny",
+        "address":"address 2",
+        "items": [
+            {
+                "ingredientName": "Treat Pizza",
+                "itemCount": 1,
+                "amount": 400
+            },
+            {
+                "ingredientName": "Treat Chicken",
+                "itemCount": 3,
+                "amount": 1200
+            },
+            {
+                "ingredientName": "Treat Veg",
+                "itemCount": 2,
+                "amount": 500
+            }
+        ],
+        "orderStatus":"Preparing"
+    },
+    {
+        "id": "#00004",
+        "name": "Arnab",
+        "address":"Bandra Lane 6",
+        "items": [
+            {
+                "ingredientName": "Veg. Pizza",
+                "itemCount": 1,
+                "amount": 400
+            },
+            {
+                "ingredientName": "Chicken Pizza",
+                "itemCount": 2,
+                "amount": 600
+            },
+            {
+                "ingredientName": "Taco",
+                "itemCount": 7,
+                "amount": 120
+            }
+        ],
+        "orderStatus":"Preparing"
+    },
+    {
+        "id": "#00005",
+        "name": "Sapan",
+        "address":"address Lane5",
+        "items": [
+            {
+                "ingredientName": "Pop Pizza",
+                "itemCount": 1,
+                "amount": 400
+            },
+            {
+                "ingredientName": "Pop Veg",
+                "itemCount": 2,
+                "amount": 300
+            }
+        ],
+        "orderStatus":"Order Recieved"
+    },
+    {
+        "id": "#00006",
+        "name": "Shashi",
+        "address":"address Lane5",
+        "items": [
+            {
+                "ingredientName": "Pasta Pizza",
+                "itemCount": 1,
+                "amount": 400
+            },
+            {
+                "ingredientName": "Pasta Pizza Chicken",
+                "itemCount": 3,
+                "amount": 1200
+            }
+        ],
+        "orderStatus":"Order Recieved"
+    }
+]

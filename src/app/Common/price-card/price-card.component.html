@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="borderClass">
+        <div class="rowItem" *ngFor="let item of Items">
+            <div class="items">
+                {{item.itemCount}} X {{item.ingredientName}}
+            </div>
+            <div class="amount">₹ {{item.amount}}</div>
+        </div>
+    </div>
+    <div class="totalAmount">Total: ₹ {{totalAmount}}</div>
+</div>
